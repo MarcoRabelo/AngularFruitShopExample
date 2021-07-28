@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitShop.Auth", "FruitShop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitShop.IoC", "FruitShop.IoC\FruitShop.IoC.csproj", "{2E4F14FA-B92C-4EFF-B2DE-C5BACECD244A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop", "FruitShop\FruitShop.csproj", "{87068F43-6F18-4FFC-93E4-8E2D8DD25B5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2E4F14FA-B92C-4EFF-B2DE-C5BACECD244A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E4F14FA-B92C-4EFF-B2DE-C5BACECD244A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E4F14FA-B92C-4EFF-B2DE-C5BACECD244A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87068F43-6F18-4FFC-93E4-8E2D8DD25B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87068F43-6F18-4FFC-93E4-8E2D8DD25B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87068F43-6F18-4FFC-93E4-8E2D8DD25B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87068F43-6F18-4FFC-93E4-8E2D8DD25B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{9DDB9212-D610-4500-9E58-B90FEADC12CB} = {D577D3C3-9953-4E2C-8338-C8AE59FD8D4E}
 		{B24FD206-F6EF-4699-9AE7-05340E4265AF} = {5D3FB572-2DC9-4F2F-B33C-01B707937287}
 		{2E4F14FA-B92C-4EFF-B2DE-C5BACECD244A} = {5D3FB572-2DC9-4F2F-B33C-01B707937287}
+		{87068F43-6F18-4FFC-93E4-8E2D8DD25B5F} = {C4608F1D-433D-4F2E-B38F-DF993AA28901}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F0383EE-DF02-465B-BE47-274745786906}
