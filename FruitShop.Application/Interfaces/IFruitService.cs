@@ -16,6 +16,6 @@ namespace FruitShop.Application.Interfaces
 
         bool Delete(long id);
 
-        void AddToCart(long id, long qtt);
+        void AddToCart(FruitToCartViewModel fruitToCart);
     }
 }

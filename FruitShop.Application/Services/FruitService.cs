@@ -58,11 +58,11 @@ namespace FruitShop.Application.Services
             _fruitRepository.Update(fruit);
         }
 
-        public void AddToCart(long id, long qtt)
+        public void AddToCart(FruitToCartViewModel fruitToCart)
         {
-            Fruit fruit = Get(id);
+            Fruit fruit = Get(fruitToCart.Id);
 
-            fruit.Stock -= qtt;
+            fruit.Stock -= fruitToCart.Qtt;
 
             if (fruit.Stock < 0)
             {

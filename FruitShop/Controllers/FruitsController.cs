@@ -85,12 +85,13 @@ namespace FruitShop.Controllers
             return Ok();
         }
 
-        [HttpPut("addtocart/{id}/{qtt}")]
-        public IActionResult AddToCart(long id, long qtt)
+        //TODO: Allow this function to only registered users. 
+        [HttpPut("addtocart"), AllowAnonymous]
+        public IActionResult AddToCart([FromBody] FruitToCartViewModel fruitToCart)
         {
             try
             {
-                _fruitService.AddToCart(id, qtt);
+                _fruitService.AddToCart(fruitToCart);
             }
             catch (Exception ex)
             {
