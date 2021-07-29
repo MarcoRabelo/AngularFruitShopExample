@@ -1,12 +1,11 @@
 # AngularFruitShopExample
 Simples exemplo de loja de frutas usando Angular, ASP.Net Core MVC, ASP.Net Core Web API, autenticação por JWT e Entity Framework Core.
 
-Autenticar no JWT:
-email: marco.rabelo@gmail.com
-senha: 123
+Autenticação no JWT:
+- email: marco.rabelo@gmail.com
+- senha: 123
 
 TODO:
-- Fazer modelo das entidades em TypeScript;
 - Urls da paginação no back end;
 - Paginação no front end;
 - Adicionar o ID do cliente no carrinho de compras;
